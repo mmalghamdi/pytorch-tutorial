@@ -1,8 +1,7 @@
+import matplotlib.pyplot as plt
+import numpy as np
 import torch
 import torch.nn as nn
-import numpy as np
-import matplotlib.pyplot as plt
-
 
 # Hyper-parameters
 input_size = 1

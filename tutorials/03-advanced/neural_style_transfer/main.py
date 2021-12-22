@@ -1,13 +1,14 @@
 from __future__ import division
+
+import argparse
+
+import numpy as np
+import torch
+import torch.nn as nn
+import torchvision
+from PIL import Image
 from torchvision import models
 from torchvision import transforms
-from PIL import Image
-import argparse
-import torch
-import torchvision
-import torch.nn as nn
-import numpy as np
-
 
 # Device configuration
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
