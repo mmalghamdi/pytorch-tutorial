@@ -3,7 +3,7 @@ import torch.nn as nn
 import torchvision
 import torchvision.transforms as transforms
 
-
+#Hi this is me trying to test git push :)
 # Device configuration
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
